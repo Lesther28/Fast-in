@@ -1,0 +1,51 @@
+body{
+    background-color: #db3d22;
+    background-image: url('../img/fondo.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#navFast{
+    width: 100px;
+    height: 90px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.barra{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#boton{
+    margin: 0px auto 25px;
+    padding:12px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#terminos{
+    background-color:	#eca702;
+    border-radius: 10px;
+    margin: 10PX;
+    padding: 10px;
+}
+
+#logo{
+    margin-right: 5px;
+    width: 45px;
+    height: 30px;
+}
+
+#contenedor{
+    text-align: center;
+}
+#iconos{
+    width: 80px;
+    height: 70px;
+}
