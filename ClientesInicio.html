@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inicio</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
+    <script src="https://kit.fontawesome.com/633590575e.js" crossorigin="anonymous"></script><!--FontAwesome-->
+    <link rel="stylesheet" href="css/Clientes.css">
+</head>
+<body>
+
+    <div>
+        <img src="img/Fast-in.png" id="navFast">
+    </div>
+
+
+    <h3>Inicio de Sesion</h3>
+    
+    <input type="email" name="Correo electronico" id="email" class="barra" >
+    <input type="password" name="Contraseña" id="password" class="barra" >
+    <button type="button" onclick="" id="boton"><img src="img/Registrarse.png" alt="" id="logo">Iniciar sesion</button>
+
+    <div>
+        <h3 style="margin-bottom: 30px; margin-top: 15px;">No tienes cuenta?</h3>
+        <button id="boton"><img src="img/logo-google.png" alt="" id="logo">Continuar con Google</button>
+        <button id="boton"><img src="img/logo-facebook.png" alt="" id="logo">Continuar con Facebook</button>
+    </div>
+
+    <div style="text-align: right; margin-right: 5px;">
+      <button type="button" onclick="location.href='RegistroMotorista.html'" id="boton" style="background-color: #F6B22C;">
+        <span><i class="fa-solid fa-motorcycle" style="color: white; font-size:1.3rem;"></i> Trabaja con nosotros</span>
+      </button>
+    </div>
+
+    <!--Modal para Facebook y google-->
+    <!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>-->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Registro</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form action="" method="POST" id="formGF">
+                <div class="form">
+                    <h1>Registro</h1>
+                    <div class="grupo">
+                        <input type="email" name="" id="email_GF" ><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="password" name="" id="password_GF" ><span class="barra"></span>
+                        <label for="">Password</label>
+                    </div>
+                    
+                    <button type="button" onclick="guardar2()">Suscribirte</button>
+                    <p class="warnings" id="warnings_GF"></p>
+                </div>
+            </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="terminos">
+    Al continuar, acepta nuestros terminos y condiciones y nuestra politica de privacidad.
+</div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
